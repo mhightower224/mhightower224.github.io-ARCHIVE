@@ -1,12 +1,31 @@
+/* CSS */
+/* Rule */
+/* declaration is a property and value */
+
 body {
-    background: #136874;
-}
-
-img {
-    width: 50%;
-}
-
-h1 {
-    color: #e41b1b;
+    display : grid ;
+    height : 100vh;
+    place-items: center;
+  }
+  
+  main {
+    background : #657aa0 ;
+    width : 400px ;
+    padding: 16px;
+    border-radius: 8px;
+  }
+  
+  img {
+    border-radius: 50%;
+  }
+  
+  div {
     text-align: center;
-}
+  }
+  
+  main:hover {
+    /*   background: red; */
+    box-shadow : 0px 15px 35px -5px rgba(40, 59, 80, 0.98);
+    transform : scale(1.25);
+  }
+  
